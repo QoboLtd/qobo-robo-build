@@ -4,18 +4,21 @@
     "type": "robo-tasks",
     "license": "MIT",
     "require": {
-        "qobo/qobo-robo": "^1.0",
-        "phpunit/phpunit": "~5.3",
-        "squizlabs/php_codesniffer": "*",
-        "pdepend/pdepend": "*",
-        "phploc/phploc": "*",
-        "phpmd/phpmd": "*",
-        "sebastian/phpcpd": "*",
-        "sami/sami": "~3.2"
+        "qobo/qobo-robo": "^1.0"
 
     },
     "require-dev": {
+        "phpunit/phpunit": "*",
         "squizlabs/php_codesniffer": "*"
+    },
+    "suggest": {
+        "phpunit/phpunit": "Required for build:php-unit command",
+        "squizlabs/php_codesniffer": "Required for build:php-cs command",
+        "pdepend/pdepend": "Required for build:php-depend command",
+        "phploc/phploc": "Required for build:php-loc command",
+        "phpmd/phpmd": "Required for build:php-md and build:php-md-ci commands",
+        "sebastian/phpcpd": "Required for build:php-cpd command",
+        "sami/sami": "Required for build:sami command"
     },
     "autoload": {
         "psr-4": {
