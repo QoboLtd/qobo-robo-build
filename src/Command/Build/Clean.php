@@ -11,7 +11,9 @@
  */
 namespace Qobo\Robo\Command\Build;
 
-class Clean extends \Qobo\Robo\AbstractCommand
+use Qobo\Robo\AbstractCommand;
+
+class Clean extends AbstractCommand
 {
     /**
      * Clean all after build

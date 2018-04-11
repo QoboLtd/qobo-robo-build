@@ -11,7 +11,9 @@
  */
 namespace Qobo\Robo\Command\Build;
 
-class PhpMd extends \Qobo\Robo\AbstractCommand
+use Qobo\Robo\AbstractCommand;
+
+class PhpMd extends AbstractCommand
 {
     /**
      * Run PHP Mess Detector

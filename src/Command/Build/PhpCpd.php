@@ -11,7 +11,9 @@
  */
 namespace Qobo\Robo\Command\Build;
 
-class PhpCpd extends \Qobo\Robo\AbstractCommand
+use Qobo\Robo\AbstractCommand;
+
+class PhpCpd extends AbstractCommand
 {
     /**
      * Run PHP Copy-Paste Detector

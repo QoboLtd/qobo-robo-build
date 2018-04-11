@@ -11,7 +11,9 @@
  */
 namespace Qobo\Robo\Command\Build;
 
-class PhpDepend extends \Qobo\Robo\AbstractCommand
+use Qobo\Robo\AbstractCommand;
+
+class PhpDepend extends AbstractCommand
 {
     /**
      * Run PHP Depend software analyzer and metric tool

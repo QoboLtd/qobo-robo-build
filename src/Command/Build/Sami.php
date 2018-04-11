@@ -11,7 +11,9 @@
  */
 namespace Qobo\Robo\Command\Build;
 
-class Sami extends \Qobo\Robo\AbstractCommand
+use Qobo\Robo\AbstractCommand;
+
+class Sami extends AbstractCommand
 {
     /**
      * Run Sami PHP documentation generation tool

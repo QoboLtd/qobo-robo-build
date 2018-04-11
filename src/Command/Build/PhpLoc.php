@@ -11,7 +11,9 @@
  */
 namespace Qobo\Robo\Command\Build;
 
-class PhpLoc extends \Qobo\Robo\AbstractCommand
+use Qobo\Robo\AbstractCommand;
+
+class PhpLoc extends AbstractCommand
 {
     /**
      * Run PHP Loc analyzer and measuring tool

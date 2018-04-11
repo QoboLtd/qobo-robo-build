@@ -11,7 +11,9 @@
  */
 namespace Qobo\Robo\Command\Build;
 
-class PhpUnit extends \Qobo\Robo\AbstractCommand
+use Qobo\Robo\AbstractCommand;
+
+class PhpUnit extends AbstractCommand
 {
     /**
      * Run PHP Unit Tests

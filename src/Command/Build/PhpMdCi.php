@@ -11,7 +11,9 @@
  */
 namespace Qobo\Robo\Command\Build;
 
-class PhpMdCi extends \Qobo\Robo\AbstractCommand
+use Qobo\Robo\AbstractCommand;
+
+class PhpMdCi extends AbstractCommand
 {
     /**
      * Run PHP Mess Detector Report
