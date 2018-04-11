@@ -62,11 +62,6 @@ class Base extends \Qobo\Robo\AbstractCmdTask
             'batch' => false,
             'logs'  => 'build/test-results'
         ],
-        'sami' => [
-            'cmd'   => './vendor/bin/sami.php update etc/sami/source.php',
-            'path'  => ['./src'],
-            'batch' => true
-        ]
     ];
 
     /**

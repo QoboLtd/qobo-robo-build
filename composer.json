@@ -17,8 +17,7 @@
         "pdepend/pdepend": "Required for build:php-depend command",
         "phploc/phploc": "Required for build:php-loc command",
         "phpmd/phpmd": "Required for build:php-md and build:php-md-ci commands",
-        "sebastian/phpcpd": "Required for build:php-cpd command",
-        "sami/sami": "Required for build:sami command"
+        "sebastian/phpcpd": "Required for build:php-cpd command"
     },
     "autoload": {
         "psr-4": {
