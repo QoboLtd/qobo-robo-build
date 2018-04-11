@@ -4,7 +4,15 @@
     "type": "robo-tasks",
     "license": "MIT",
     "require": {
-        "qobo/qobo-robo": "^1.0"
+        "qobo/qobo-robo": "^1.0",
+        "phpunit/phpunit": "~5.3",
+        "squizlabs/php_codesniffer": "*",
+        "pdepend/pdepend": "*",
+        "phploc/phploc": "*",
+        "phpmd/phpmd": "*",
+        "sebastian/phpcpd": "*",
+        "sami/sami": "~3.2"
+
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "*"
