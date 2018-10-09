@@ -4,7 +4,8 @@
     "type": "robo-tasks",
     "license": "MIT",
     "require": {
-        "qobo/qobo-robo": "^2.0"
+        "qobo/qobo-robo": "^2.0",
+        "symfony/filesystem": "^2.7"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
